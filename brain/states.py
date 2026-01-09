@@ -1,0 +1,5 @@
+class State:
+    IDLE = "IDLE"
+    LISTENING = "LISTENING"
+    PROCESSING = "PROCESSING"
+    SPEAKING = "SPEAKING"
