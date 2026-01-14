@@ -1,7 +1,6 @@
 from ops.commands import commands
 
 
-
 def execute(intent_packet: dict):
     intent = intent_packet.get("intent")
     context = intent_packet.get("context", {})
