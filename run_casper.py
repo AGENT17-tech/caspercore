@@ -9,7 +9,8 @@ from voice.stt import listen
 from voice.tts import speak
 
 from brain.llm import LLM
-from brain.client_stub import query as llm_query
+from brain.client_openai import query as llm_query
+
 
 
 # ======================================================
